@@ -18,11 +18,16 @@
 
 .pfp{
     border-radius: 20%;
-    height: 120px;
-    width: 110px;
+    height: 60%;
+    width: 25%;
 }
 
 .row{
     justify-content: space-evenly;
     margin: 20px;
+}
+
+i{
+    position: relative;
+    float: right;
 }
