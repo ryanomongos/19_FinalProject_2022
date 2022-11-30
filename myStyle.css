@@ -1,0 +1,21 @@
+.header {
+    overflow: hidden;
+    background-color: #c6e2e9;
+    padding: 10px;
+}
+.container{
+    justify-content: space-evenly;
+    margin: 10px;
+}
+.pfp{
+    height: 30%;
+    width: 30%;
+}
+.card{
+    padding: 10px;
+    width: 40%;
+}
+
+img{
+    border-radius: 20%;
+}
