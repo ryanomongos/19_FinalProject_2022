@@ -11,24 +11,26 @@
     </head>
     <body>
         <div class="header"> <h2>RYAN OMONGOS</h2></div>
+        <div class="header" style="background-color:  #FDFD96;"> <h2><center>Best Travel Destination in Philippines</center></h2></div>
         <div class="container">
             <div class="row">
                 <div class="card">
                     <div class="card-body">                    
-                        <h4>Tay Tawan Vihokratana</h4>
+                        <h4>Sagada, Benguet</h4>
                         <p id="tally"></p>
-                    </div>
-                    <div class="row">
                         <img src="img\candidate1.jpg" class="pfp" alt="Candidate 1">
-                        <i class="glyphicon glyphicon-chevron-up" onclick="vote(1)"></i>
-                        <i class="glyphicon glyphicon-chevron-down" onclick="vote(-1)"></i>
+                    </div>
+                    
+                    <div class="row">                        
+                        <i class="glyphicon glyphicon-chevron-up" onclick="upVote()"></i>
+                        <i class="glyphicon glyphicon-chevron-down" onclick="downVote()"></i>
                         <p id="sum"></p>
                     </div>
                     
                 </div>
                 <div class="card">
                     <div class="card-body">
-                        <h4>First Kanaphan Puitrakul</h4>
+                        <h4>Vigan City, Ilocos Del Sur</h4>
                     </div>
                     <img src="img\candidate2.jpg" class="pfp" alt="Candidate 2">
                 </div>
@@ -36,13 +38,13 @@
             <div class="row">
                 <div class="card">
                     <div class="card-body">
-                        <h4>Book Kasidet Plookphol</h4>
+                        <h4>Taglucop Strawberry Hills, Bukidnon</h4>
                     </div>
                     <img src="img\candidate3.jpg" class="card-img-left pfp" alt="Candidate 3">
                 </div>
                 <div class="card">
                     <div class="card-body">                    
-                        <h4>Up Poompat Iam-samang</h4>
+                        <h4>Sumilon Island, Cebu</h4>
                     </div>
                     <img src="img\candidate4.jpg" class="pfp" alt="Candidate 4">
                 </div>
@@ -50,13 +52,13 @@
             <div class="row">
                 <div class="card">
                     <div class="card-body">                    
-                        <h4>Chimon Wachirawit Ruangwiwat</h4>
+                        <h4>Rizal Boulevard, Negros Oriental</h4>
                     </div>
                     <img src="img\candidate5.jpg" class="pfp" alt="Candidate 5">
                 </div>
                 <div class="card">
                     <div class="card-body">
-                        <h4>Aou Thanaboon Kiatniran </h4>
+                        <h4>Rizal Shrine, Zamboanga del Norte</h4>
                     </div>
                     <img src="img\candidate6.jpg" class="pfp" alt="Candidate 6">
                 </div>
@@ -64,13 +66,13 @@
             <div class="row">
                 <div class="card">
                     <div class="card-body">                    
-                        <h4>Khunpol Pongpol Panyamit</h4>
+                        <h4>Batanes Islands, Batanes</h4>
                     </div>
                     <img src="img\candidate7.jpg" class="pfp" alt="Candidate 7">
                 </div>
                 <div class="card">
                     <div class="card-body">
-                        <h4>New Thitipoom Techa-apaikhun</h4>
+                        <h4>Mr. Apo, Davao de Oro</h4>
                     </div>
                     <img src="img\candidate8.jpg" class="card-img-left pfp" alt="Candidate 8">
                 </div>
@@ -78,9 +80,17 @@
         </div>    
 
         <script>
-            function vote(tally){
-                var num
+            var x = function upVote(){
+                return 1;
             }
+            var y = function downVote(){
+                return -1;
+            }
+            
+            var sum = x + y;
+
+            document.getElementById("sum") = sum;
+
         </script>
     </body>
 </html>
