@@ -1,0 +1,38 @@
+{
+    "candidates":[
+        {
+            "name": "Sagada, Benguet",
+            "num": 1
+        },
+        {
+            "name": "Vigan City, Ilocos Del Sur",
+            "num":2
+        },
+        {
+            "name": "Taglucop Straberry hills, Bukidnon",
+            "num": 3
+        },
+        {
+            "name": "Sumilon Island, Cebu",
+            "num": 4
+        },
+        {
+            "name": "Rizal Boulevard, Negros Oriental",
+            "num": 5
+        },
+        {
+            "name": "Rizal Shrine, Zamboanga del Norte",
+            "num": 6
+        },
+        {
+            "name": "Batanes Islands, Batanes",
+            "num": 7
+        },
+        {
+            "name": "Mt. Apo, Davao de Oro",
+            "num": 8
+        }
+    ]
+
+    
+}
