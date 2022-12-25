@@ -1,10 +1,17 @@
 .header {
+    overflow: hidden;
     background-color: #c6e2e9;
     padding: 5px;
-    height: 6%;
+    height: 7%;
     margin-bottom: -1%;
+    margin-top: -1.5%;
 }
 
+.row {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -1%;
+}
 .container{
     margin: 20px;
     justify-content: center;
